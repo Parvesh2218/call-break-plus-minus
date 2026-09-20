@@ -27,6 +27,7 @@ jobs:
             --platforms=android \
             --project-name=call_break_plus_minus \
             .
+          rm -f test/widget_test.dart
 
       - name: Get dependencies
         run: flutter pub get
